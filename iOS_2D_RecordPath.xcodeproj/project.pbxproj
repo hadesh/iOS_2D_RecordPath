@@ -36,6 +36,7 @@
 		8197CF641D3DFCF2007E2812 /* MAMapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8197CF611D3DFCF2007E2812 /* MAMapKit.framework */; };
 		8197CF661D3DFD26007E2812 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8197CF651D3DFD26007E2812 /* libz.tbd */; };
 		8197CF681D3DFD35007E2812 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8197CF671D3DFD35007E2812 /* libc++.tbd */; };
+		8197CF6F1D3E00BD007E2812 /* AMap.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8197CF6E1D3E00BD007E2812 /* AMap.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +96,7 @@
 		8197CF611D3DFCF2007E2812 /* MAMapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MAMapKit.framework; sourceTree = "<group>"; };
 		8197CF651D3DFD26007E2812 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		8197CF671D3DFD35007E2812 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		8197CF6E1D3E00BD007E2812 /* AMap.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = AMap.bundle; path = iOS_2D_RecordPath/MAMapKit.framework/AMap.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +184,7 @@
 		749127CB1B57A1DE0088F456 = {
 			isa = PBXGroup;
 			children = (
+				8197CF6E1D3E00BD007E2812 /* AMap.bundle */,
 				8197CF671D3DFD35007E2812 /* libc++.tbd */,
 				8197CF651D3DFD26007E2812 /* libz.tbd */,
 				749127D61B57A1DE0088F456 /* iOS_2D_RecordPath */,
@@ -337,6 +340,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8197CF6F1D3E00BD007E2812 /* AMap.bundle in Resources */,
 				749127E81B57A1DE0088F456 /* LaunchScreen.xib in Resources */,
 				749127E51B57A1DE0088F456 /* Images.xcassets in Resources */,
 			);
