@@ -1,9 +1,9 @@
 //
-//  MAMutablePolylineView.m
-//  officialDemo2D
+//  MAAdditivePolylineRenderer.m
+//  iOS_2D_RecordPath
 //
-//  Created by PC on 15/7/15.
-//  Copyright (c) 2015年 AutoNavi. All rights reserved.
+//  Created by PC on 15/7/17.
+//  Copyright (c) 2015年 FENGSHENG. All rights reserved.
 //
 
 #import "MAMutablePolylineRenderer.h"
@@ -11,37 +11,31 @@
 
 @implementation MAMutablePolylineRenderer
 
-#pragma mark - Override
-
-- (void)drawMapRect:(MAMapRect)mapRect zoomScale:(MAZoomScale)zoomScale inContext:(CGContextRef)context
+- (void)createPath
 {
-    MAMutablePolyline *polyline = (MAMutablePolyline *)self.overlay;
-    
-    if (polyline == nil)
-    {
-        NSLog(@"polyline is nil");
-        return;
-    }
-    
-    //绘制path
-    CGContextSetRGBStrokeColor(context, 1.0, 0.0, 0.0, 1.0);
-    CGContextSetLineWidth(context, 4.0 / zoomScale);
+    CGMutablePathRef path = CGPathCreateMutable();
 
-    NSUInteger count = polyline.pointArray.count;
-    if (count > 0)
+    MAMutablePolyline *overlay = self.overlay;
+    
+    if (overlay.pointArray.count > 0)
     {
-        CGPoint point = [self pointForMapPoint:[polyline mapPointForPointAt:0]];
-        CGContextMoveToPoint(context, point.x, point.y);
+        CGPoint point = [self pointForMapPoint:[overlay mapPointForPointAt:0]];
+        CGPathMoveToPoint(path, nil, point.x,point.y);
     }
     
-    for (int i = 1; i < count; i++)
+    for (int i = 1; i < overlay.pointArray.count; i++)
     {
-        CGPoint point = [self pointForMapPoint:[polyline mapPointForPointAt:i]];
-        CGContextAddLineToPoint(context, point.x, point.y);
+        CGPoint point = [self pointForMapPoint:[overlay mapPointForPointAt:i]];
+        CGPathAddLineToPoint(path, nil, point.x, point.y);
     }
-
-    CGContextDrawPath(context, kCGPathStroke);
+    
+    self.path = path;
 }
 
-
+- (void)fillPath:(CGPathRef)path inContext:(CGContextRef)context
+{
+    return;
+}
 @end
+
+

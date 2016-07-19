@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "MainViewController.h"
 #import "APIKey.h"
+#import <AMapFoundationKit/AMapFoundationKit.h>
 
 @interface AppDelegate ()
 
@@ -27,7 +28,7 @@
         [alert show];
     }
     
-    [MAMapServices sharedServices].apiKey = (NSString *)APIKey;
+    [AMapServices sharedServices].apiKey = (NSString *)APIKey;
 }
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions

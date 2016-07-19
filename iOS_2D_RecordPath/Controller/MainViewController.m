@@ -9,7 +9,7 @@
 #import "MainViewController.h"
 #import "MAMutablePolyline.h"
 #import "MAMutablePolylineRenderer.h"
-#import "MAAdditivePolylineRenderer.h"
+#import "MAMutablePolylineRenderer.h"
 #import "StatusView.h"
 #import "TipView.h"
 #import "Record.h"
@@ -31,7 +31,7 @@
 @property (nonatomic, assign) BOOL isRecording;
 
 @property (nonatomic, strong) MAMutablePolyline *mutablePolyline;
-@property (nonatomic, strong) MAAdditivePolylineRenderer *render;
+@property (nonatomic, strong) MAMutablePolylineRenderer *render;
 
 @property (nonatomic, strong) NSMutableArray *locationsArray;
 
@@ -77,7 +77,7 @@
 {
     if ([overlay isKindOfClass:[MAMutablePolyline class]])
     {
-        MAAdditivePolylineRenderer *renderer = [[MAAdditivePolylineRenderer alloc] initWithOverlay:overlay];
+        MAMutablePolylineRenderer *renderer = [[MAMutablePolylineRenderer alloc] initWithOverlay:overlay];
         renderer.lineWidth = 4.0f;
         
         renderer.strokeColor = [UIColor redColor];

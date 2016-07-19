@@ -13,7 +13,6 @@
 		740EC8EF1B6F1F3700CC6A39 /* Record.m in Sources */ = {isa = PBXBuildFile; fileRef = 740EC8EE1B6F1F3700CC6A39 /* Record.m */; };
 		740EC8F21B6F47FD00CC6A39 /* RecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 740EC8F11B6F47FD00CC6A39 /* RecordViewController.m */; };
 		740EC8F51B6F482400CC6A39 /* FileHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 740EC8F41B6F482400CC6A39 /* FileHelper.m */; };
-		742FD83A1B57A7CD0093C6A1 /* AMap.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 742FD8391B57A7CD0093C6A1 /* AMap.bundle */; };
 		742FD8421B57A8440093C6A1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 742FD8411B57A8440093C6A1 /* UIKit.framework */; };
 		742FD8441B57A84D0093C6A1 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 742FD8431B57A84D0093C6A1 /* CoreFoundation.framework */; };
 		742FD8461B57A8540093C6A1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 742FD8451B57A8540093C6A1 /* CoreGraphics.framework */; };
@@ -22,14 +21,9 @@
 		742FD84C1B57A8B70093C6A1 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 742FD84B1B57A8B70093C6A1 /* CoreLocation.framework */; };
 		742FD84E1B57A8D10093C6A1 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 742FD84D1B57A8D10093C6A1 /* CoreTelephony.framework */; };
 		742FD8501B57A8D90093C6A1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 742FD84F1B57A8D90093C6A1 /* SystemConfiguration.framework */; };
-		742FD8521B57A8E90093C6A1 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 742FD8511B57A8E90093C6A1 /* libz.dylib */; };
-		742FD8541B57A8F30093C6A1 /* libstdc++.6.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 742FD8531B57A8F30093C6A1 /* libstdc++.6.0.9.dylib */; };
 		742FD8561B57A8FB0093C6A1 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 742FD8551B57A8FB0093C6A1 /* Security.framework */; };
 		742FD85A1B57AA520093C6A1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 742FD8591B57AA520093C6A1 /* MainViewController.m */; };
-		742FD8641B57AB250093C6A1 /* MAMutablePolylineRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 742FD8631B57AB250093C6A1 /* MAMutablePolylineRenderer.m */; };
 		742FD8671B57AB2E0093C6A1 /* MAMutablePolyline.m in Sources */ = {isa = PBXBuildFile; fileRef = 742FD8661B57AB2E0093C6A1 /* MAMutablePolyline.m */; };
-		742FD8681B57ACFB0093C6A1 /* MAMapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 742FD83D1B57A81C0093C6A1 /* MAMapKit.framework */; };
-		742FD8691B57AD050093C6A1 /* AMapSearchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 742FD83B1B57A8130093C6A1 /* AMapSearchKit.framework */; };
 		749127DA1B57A1DE0088F456 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 749127D91B57A1DE0088F456 /* main.m */; };
 		749127DD1B57A1DE0088F456 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 749127DC1B57A1DE0088F456 /* AppDelegate.m */; };
 		749127E51B57A1DE0088F456 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 749127E41B57A1DE0088F456 /* Images.xcassets */; };
@@ -37,7 +31,11 @@
 		749127F41B57A1DE0088F456 /* iOS_2D_RecordPathTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 749127F31B57A1DE0088F456 /* iOS_2D_RecordPathTests.m */; };
 		74AA68081B57BE560041601E /* StatusView.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AA68071B57BE560041601E /* StatusView.m */; };
 		74AA680B1B57C43E0041601E /* TipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AA680A1B57C43E0041601E /* TipView.m */; };
-		74AA680E1B58EC4F0041601E /* MAAdditivePolylineRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AA680D1B58EC4F0041601E /* MAAdditivePolylineRenderer.m */; };
+		74AA680E1B58EC4F0041601E /* MAMutablePolylineRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AA680D1B58EC4F0041601E /* MAMutablePolylineRenderer.m */; };
+		8197CF621D3DFCF2007E2812 /* AMapFoundationKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8197CF5F1D3DFCF2007E2812 /* AMapFoundationKit.framework */; };
+		8197CF641D3DFCF2007E2812 /* MAMapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8197CF611D3DFCF2007E2812 /* MAMapKit.framework */; };
+		8197CF661D3DFD26007E2812 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8197CF651D3DFD26007E2812 /* libz.tbd */; };
+		8197CF681D3DFD35007E2812 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8197CF671D3DFD35007E2812 /* libc++.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,9 +61,6 @@
 		740EC8F11B6F47FD00CC6A39 /* RecordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordViewController.m; sourceTree = "<group>"; };
 		740EC8F31B6F482400CC6A39 /* FileHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileHelper.h; sourceTree = "<group>"; };
 		740EC8F41B6F482400CC6A39 /* FileHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileHelper.m; sourceTree = "<group>"; };
-		742FD8391B57A7CD0093C6A1 /* AMap.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = AMap.bundle; path = ../Resources/AMap.bundle; sourceTree = "<group>"; };
-		742FD83B1B57A8130093C6A1 /* AMapSearchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AMapSearchKit.framework; path = ../Resources/AMapSearchKit.framework; sourceTree = "<group>"; };
-		742FD83D1B57A81C0093C6A1 /* MAMapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MAMapKit.framework; path = ../Resources/MAMapKit.framework; sourceTree = "<group>"; };
 		742FD8411B57A8440093C6A1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		742FD8431B57A84D0093C6A1 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		742FD8451B57A8540093C6A1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -74,14 +69,10 @@
 		742FD84B1B57A8B70093C6A1 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		742FD84D1B57A8D10093C6A1 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		742FD84F1B57A8D90093C6A1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		742FD8511B57A8E90093C6A1 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
-		742FD8531B57A8F30093C6A1 /* libstdc++.6.0.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.0.9.dylib"; path = "usr/lib/libstdc++.6.0.9.dylib"; sourceTree = SDKROOT; };
 		742FD8551B57A8FB0093C6A1 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		742FD8581B57AA520093C6A1 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		742FD8591B57AA520093C6A1 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		742FD85E1B57AA880093C6A1 /* APIKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIKey.h; sourceTree = "<group>"; };
-		742FD8621B57AB250093C6A1 /* MAMutablePolylineRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAMutablePolylineRenderer.h; sourceTree = "<group>"; };
-		742FD8631B57AB250093C6A1 /* MAMutablePolylineRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAMutablePolylineRenderer.m; sourceTree = "<group>"; };
 		742FD8651B57AB2E0093C6A1 /* MAMutablePolyline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAMutablePolyline.h; sourceTree = "<group>"; };
 		742FD8661B57AB2E0093C6A1 /* MAMutablePolyline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAMutablePolyline.m; sourceTree = "<group>"; };
 		749127D41B57A1DE0088F456 /* iOS_2D_RecordPath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_2D_RecordPath.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -98,8 +89,12 @@
 		74AA68071B57BE560041601E /* StatusView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusView.m; sourceTree = "<group>"; };
 		74AA68091B57C43E0041601E /* TipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TipView.h; sourceTree = "<group>"; };
 		74AA680A1B57C43E0041601E /* TipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TipView.m; sourceTree = "<group>"; };
-		74AA680C1B58EC4F0041601E /* MAAdditivePolylineRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAAdditivePolylineRenderer.h; sourceTree = "<group>"; };
-		74AA680D1B58EC4F0041601E /* MAAdditivePolylineRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAAdditivePolylineRenderer.m; sourceTree = "<group>"; };
+		74AA680C1B58EC4F0041601E /* MAMutablePolylineRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAMutablePolylineRenderer.h; sourceTree = "<group>"; };
+		74AA680D1B58EC4F0041601E /* MAMutablePolylineRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAMutablePolylineRenderer.m; sourceTree = "<group>"; };
+		8197CF5F1D3DFCF2007E2812 /* AMapFoundationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapFoundationKit.framework; sourceTree = "<group>"; };
+		8197CF611D3DFCF2007E2812 /* MAMapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MAMapKit.framework; sourceTree = "<group>"; };
+		8197CF651D3DFD26007E2812 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		8197CF671D3DFD35007E2812 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,19 +102,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				742FD8691B57AD050093C6A1 /* AMapSearchKit.framework in Frameworks */,
-				742FD8681B57ACFB0093C6A1 /* MAMapKit.framework in Frameworks */,
+				8197CF681D3DFD35007E2812 /* libc++.tbd in Frameworks */,
+				8197CF661D3DFD26007E2812 /* libz.tbd in Frameworks */,
 				742FD8561B57A8FB0093C6A1 /* Security.framework in Frameworks */,
-				742FD8541B57A8F30093C6A1 /* libstdc++.6.0.9.dylib in Frameworks */,
-				742FD8521B57A8E90093C6A1 /* libz.dylib in Frameworks */,
 				742FD8501B57A8D90093C6A1 /* SystemConfiguration.framework in Frameworks */,
 				742FD84E1B57A8D10093C6A1 /* CoreTelephony.framework in Frameworks */,
 				742FD84C1B57A8B70093C6A1 /* CoreLocation.framework in Frameworks */,
 				742FD84A1B57A8AF0093C6A1 /* OpenGLES.framework in Frameworks */,
+				8197CF641D3DFCF2007E2812 /* MAMapKit.framework in Frameworks */,
 				742FD8481B57A8610093C6A1 /* QuartzCore.framework in Frameworks */,
 				742FD8461B57A8540093C6A1 /* CoreGraphics.framework in Frameworks */,
 				742FD8441B57A84D0093C6A1 /* CoreFoundation.framework in Frameworks */,
 				742FD8421B57A8440093C6A1 /* UIKit.framework in Frameworks */,
+				8197CF621D3DFCF2007E2812 /* AMapFoundationKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,10 +161,8 @@
 			children = (
 				740922CC1B709D4C00915523 /* SystemInfoView.h */,
 				740922CD1B709D4C00915523 /* SystemInfoView.m */,
-				742FD8621B57AB250093C6A1 /* MAMutablePolylineRenderer.h */,
-				742FD8631B57AB250093C6A1 /* MAMutablePolylineRenderer.m */,
-				74AA680C1B58EC4F0041601E /* MAAdditivePolylineRenderer.h */,
-				74AA680D1B58EC4F0041601E /* MAAdditivePolylineRenderer.m */,
+				74AA680C1B58EC4F0041601E /* MAMutablePolylineRenderer.h */,
+				74AA680D1B58EC4F0041601E /* MAMutablePolylineRenderer.m */,
 				74AA68061B57BE560041601E /* StatusView.h */,
 				74AA68071B57BE560041601E /* StatusView.m */,
 				74AA68091B57C43E0041601E /* TipView.h */,
@@ -189,6 +182,8 @@
 		749127CB1B57A1DE0088F456 = {
 			isa = PBXGroup;
 			children = (
+				8197CF671D3DFD35007E2812 /* libc++.tbd */,
+				8197CF651D3DFD26007E2812 /* libz.tbd */,
 				749127D61B57A1DE0088F456 /* iOS_2D_RecordPath */,
 				749127F01B57A1DE0088F456 /* iOS_2D_RecordPathTests */,
 				749127D51B57A1DE0088F456 /* Products */,
@@ -223,8 +218,8 @@
 			children = (
 				749127DB1B57A1DE0088F456 /* AppDelegate.h */,
 				749127DC1B57A1DE0088F456 /* AppDelegate.m */,
-				742FD8531B57A8F30093C6A1 /* libstdc++.6.0.9.dylib */,
-				742FD8511B57A8E90093C6A1 /* libz.dylib */,
+				8197CF5F1D3DFCF2007E2812 /* AMapFoundationKit.framework */,
+				8197CF611D3DFCF2007E2812 /* MAMapKit.framework */,
 				742FD84D1B57A8D10093C6A1 /* CoreTelephony.framework */,
 				742FD84B1B57A8B70093C6A1 /* CoreLocation.framework */,
 				742FD8491B57A8AF0093C6A1 /* OpenGLES.framework */,
@@ -234,9 +229,6 @@
 				742FD8411B57A8440093C6A1 /* UIKit.framework */,
 				742FD8551B57A8FB0093C6A1 /* Security.framework */,
 				742FD84F1B57A8D90093C6A1 /* SystemConfiguration.framework */,
-				742FD83D1B57A81C0093C6A1 /* MAMapKit.framework */,
-				742FD83B1B57A8130093C6A1 /* AMapSearchKit.framework */,
-				742FD8391B57A7CD0093C6A1 /* AMap.bundle */,
 				749127D81B57A1DE0088F456 /* Info.plist */,
 				749127D91B57A1DE0088F456 /* main.m */,
 			);
@@ -346,7 +338,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				749127E81B57A1DE0088F456 /* LaunchScreen.xib in Resources */,
-				742FD83A1B57A7CD0093C6A1 /* AMap.bundle in Resources */,
 				749127E51B57A1DE0088F456 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -368,10 +359,9 @@
 				740EC8EF1B6F1F3700CC6A39 /* Record.m in Sources */,
 				749127DD1B57A1DE0088F456 /* AppDelegate.m in Sources */,
 				742FD8671B57AB2E0093C6A1 /* MAMutablePolyline.m in Sources */,
-				74AA680E1B58EC4F0041601E /* MAAdditivePolylineRenderer.m in Sources */,
+				74AA680E1B58EC4F0041601E /* MAMutablePolylineRenderer.m in Sources */,
 				74AA68081B57BE560041601E /* StatusView.m in Sources */,
 				740EC8F51B6F482400CC6A39 /* FileHelper.m in Sources */,
-				742FD8641B57AB250093C6A1 /* MAMutablePolylineRenderer.m in Sources */,
 				74AA680B1B57C43E0041601E /* TipView.m in Sources */,
 				740EC8F21B6F47FD00CC6A39 /* RecordViewController.m in Sources */,
 				740922CE1B709D4C00915523 /* SystemInfoView.m in Sources */,
@@ -499,6 +489,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Resources",
+					"$(PROJECT_DIR)/iOS_2D_RecordPath",
 				);
 				INFOPLIST_FILE = iOS_2D_RecordPath/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
@@ -515,6 +506,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Resources",
+					"$(PROJECT_DIR)/iOS_2D_RecordPath",
 				);
 				INFOPLIST_FILE = iOS_2D_RecordPath/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
